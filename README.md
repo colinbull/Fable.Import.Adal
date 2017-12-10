@@ -2,6 +2,11 @@
 Fable bindings for ADAL.js  (Azure Active Directory for Javascript)
 
 ## Example 
+This example is epecting ADAL.js to bee added as a script in index.html 
+
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.15/js/adal.min.js"></script>
+
+Once add we can authenticate with active directory and pass the resulting JWT to an API.
 
     let tokenUri = "<API Token URI - Typically App Uri for the API>"
     let authContext = 
