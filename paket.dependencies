@@ -1,0 +1,13 @@
+source https://www.nuget.org/api/v2
+
+nuget Fable.Core
+
+group Build
+    source https://www.nuget.org/api/v2
+
+    nuget Fake
+    nuget FSharp.Core  redirects:force, content:none
+    github fsharp/FAKE modules/Octokit/Octokit.fsx
+    github fable-compiler/fake-helpers Fable.FakeHelpers.fs
+
+
