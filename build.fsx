@@ -16,7 +16,7 @@ System.Console.OutputEncoding <- System.Text.Encoding.UTF8
 let project = "Fable.Import.Adal"
 let gitOwner = "colinbull"
 
-let dotnetcliVersion = "2.0.3"
+let dotnetcliVersion = "2.0.2"
 let mutable dotnetExePath = environVarOrDefault "DOTNET" "dotnet"
 
 // Clean and install dotnet SDK
