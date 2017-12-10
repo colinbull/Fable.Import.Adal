@@ -1,6 +1,11 @@
 # Fable.Import.Adal
 Fable bindings for ADAL.js  (Azure Active Directory for Javascript)
 
+    paket add Fable.Import.Adal
+or 
+    dotnet add package Fable.Import.Adal
+
+
 ## Example 
 This example is epecting ADAL.js to bee added as a script in index.html 
 
