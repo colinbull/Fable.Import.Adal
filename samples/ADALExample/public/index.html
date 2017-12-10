@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Simple Fable App</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="fable.ico" />
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.15/js/adal.min.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.js?features=es6,fetch"></script>
+</head>
+
+<body>
+    <h1>Using ADAL Login</h1>
+    <div>
+        <button id="login">Login</button>
+        <button id="logout">Logout</button>
+        <button id="getdata">Get Data</button>
+        <button id="gettrades">Get Trades</button>
+    </div>
+    <div id="status"></div>
+    <div id="data"></div>
+    <div id="trades"></div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>

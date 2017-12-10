@@ -3,3 +3,4 @@
 
 ### 1.0.0-beta002 - 10/12/2017
 - Added Nuget release
+
